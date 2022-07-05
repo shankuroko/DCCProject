@@ -1,5 +1,5 @@
 from flask import Flask, render_template,request,jsonify
-import pickle5 as pickle
+import pickle
 import bz2file as bz2
 def decompress_pickle(file):
     data = bz2.BZ2File(file, 'rb')
