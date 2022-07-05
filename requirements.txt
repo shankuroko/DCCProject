@@ -3,4 +3,4 @@ gunicorn==20.1.0
 bz2file==0.98
 keras==2.6.0
 Keras-Preprocessing==1.1.2
-tensorflow==2.6.0
+tensorflow-cpu
