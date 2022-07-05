@@ -1,7 +1,6 @@
 from flask import Flask, render_template,request,jsonify
 import pickle
 import bz2file as bz2
-from tensorflow.keras.models import load_model
 def decompress_pickle(file):
     data = bz2.BZ2File(file, 'rb')
     data = pickle.load(data)
